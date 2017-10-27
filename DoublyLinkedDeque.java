@@ -9,7 +9,7 @@ public final class DoublyLinkedDeque<T> implements DequeInterface<T> {
 	private DoublyLinkedNode firstNode;
 	private DoublyLinkedNode lastNode;
 	
-	DoublyLinkedDeque() {
+	public DoublyLinkedDeque() {
 		firstNode = null;
 		lastNode = null;
 	}
